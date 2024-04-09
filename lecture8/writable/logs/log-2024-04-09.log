@@ -1,0 +1,9 @@
+CRITICAL - 2024-04-09 09:34:04 --> count(): Parameter must be an array or an object that implements Countable
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/apps/cci4/lecture8/app/Controllers/Main.php(14): count()
+#2 /var/www/html/apps/cci4/lecture8/app/Controllers/Main.php(9): App\Controllers\Main->count()
+#3 /var/www/html/apps/cci4/lecture8/system/CodeIgniter.php(914): App\Controllers\Main->index()
+#4 /var/www/html/apps/cci4/lecture8/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/apps/cci4/lecture8/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/apps/cci4/lecture8/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
