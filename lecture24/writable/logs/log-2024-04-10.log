@@ -1,0 +1,6 @@
+CRITICAL - 2024-04-10 14:17:15 --> Call to undefined function App\Controllers\sesson()
+#0 /var/www/html/apps/cci4/lecture24/system/CodeIgniter.php(914): App\Controllers\Main->index()
+#1 /var/www/html/apps/cci4/lecture24/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#2 /var/www/html/apps/cci4/lecture24/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#3 /var/www/html/apps/cci4/lecture24/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
