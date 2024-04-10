@@ -1,0 +1,10 @@
+CRITICAL - 2024-04-10 08:37:48 --> Invalid argument supplied for foreach()
+#0 /var/www/html/apps/cci4/lecture19/system/View/Parser.php(394): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/apps/cci4/lecture19/system/View/Parser.php(309): CodeIgniter\View\Parser->parsePair()
+#2 /var/www/html/apps/cci4/lecture19/system/View/Parser.php(166): CodeIgniter\View\Parser->parse()
+#3 /var/www/html/apps/cci4/lecture19/app/Controllers/Main.php(17): CodeIgniter\View\Parser->render()
+#4 /var/www/html/apps/cci4/lecture19/system/CodeIgniter.php(914): App\Controllers\Main->index()
+#5 /var/www/html/apps/cci4/lecture19/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#6 /var/www/html/apps/cci4/lecture19/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#7 /var/www/html/apps/cci4/lecture19/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
