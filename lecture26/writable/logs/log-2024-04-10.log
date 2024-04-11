@@ -1,0 +1,9 @@
+CRITICAL - 2024-04-10 19:26:02 --> session_regenerate_id(): Cannot regenerate session id - session is not active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/apps/cci4/lecture26/system/Session/Session.php(285): session_regenerate_id()
+#2 /var/www/html/apps/cci4/lecture26/app/Controllers/Main.php(38): CodeIgniter\Session\Session->stop()
+#3 /var/www/html/apps/cci4/lecture26/system/CodeIgniter.php(914): App\Controllers\Main->logout()
+#4 /var/www/html/apps/cci4/lecture26/system/CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController()
+#5 /var/www/html/apps/cci4/lecture26/system/CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest()
+#6 /var/www/html/apps/cci4/lecture26/public/index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
